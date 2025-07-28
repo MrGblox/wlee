@@ -1,5 +1,6 @@
 -- By Kreatifiti
 -- Remote Spy v4.0
+
 if not syn then error("This script requires a supported executor (Synapse/Fluxus/Delta).") end
 
 local Players = game:GetService("Players")

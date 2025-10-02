@@ -1,7 +1,7 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Window = WindUI:CreateWindow({
     Title = "44 Universal Hub",
-    Icon = "",
+    Icon = "earth",
     Author = "By | 4izfr",
     Folder = "cowoganteng",
     

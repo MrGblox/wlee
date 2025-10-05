@@ -1,7 +1,7 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Window = WindUI:CreateWindow({
     Title = "44 HUB | UNIVERSAl",
-    Icon = "world", -- lucide icon
+    Icon = "lucide:world", -- lucide icon
     Author = "BY | 4izfr",
     Folder = "MySuperHub",
 

@@ -1,8 +1,8 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Window = WindUI:CreateWindow({
-    Title = "My Super Hub",
-    Icon = "door-open", -- lucide icon
-    Author = "by .ftgs and .ftgs",
+    Title = "44 HUB | UNIVERSAl",
+    Icon = "world", -- lucide icon
+    Author = "BY | 4izfr",
     Folder = "MySuperHub",
 
     Size = UDim2.fromOffset(580, 460),
@@ -17,3 +17,13 @@ local Window = WindUI:CreateWindow({
     ScrollBarEnabled = true,
     
     User = {Enabled = true,Anonymous = false,Callback = function()print("clicked")end,},})
+Window:Tag({
+    Title = "v1.6.4",
+    Color = Color3.fromHex("#30ff6a"),
+    Radius = 0, -- from 0 to 13
+})
+Window:Tag({
+    Title = "v1.6.4",
+    Color = Color3.fromHex("#30ff6a"),
+    Radius = 0, -- from 0 to 13
+})

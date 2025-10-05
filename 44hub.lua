@@ -17,13 +17,4 @@ local Window = WindUI:CreateWindow({
     ScrollBarEnabled = true,
     
   User = {Enabled = true, Anonymous = false, Callback = function() local player = game.Players.LocalPlayer local username = player.Name if setclipboard then setclipboard(username) WindUI:Notify({Title = "Copied!", Content = "Username kamu telah disalin: " .. username, Duration = 3, Icon = "check"}) print("✅ Copied username:", username) else WindUI:Notify({Title = "Gagal", Content = "Executor kamu tidak mendukung setclipboard!", Duration = 3, Icon = "x"}) warn("❌ setclipboard tidak tersedia.") end end,}})
-  Window:Tag({
-    Title = "v1.6.4",
-    Color = Color3.fromHex("#30ff6a"),
-    Radius = 12, 
-})
-Window:Tag({
-    Title = "v1.6.4",
-    Color = Color3.fromHex("#30ff6a"),
-    Radius = 12, 
-})
+Window:CreateTopbarButton("discord-copy", "discord", function() if setclipboard then setclipboard("https://discord.gg/YourServerLink") print("✅ Discord link copied!") else warn("❌ setclipboard tidak tersedia.") end end)

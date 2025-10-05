@@ -20,10 +20,10 @@ local Window = WindUI:CreateWindow({
 Window:Tag({
     Title = "v1.6.4",
     Color = Color3.fromHex("#30ff6a"),
-    Radius = 0, -- from 0 to 13
+    Radius = 5, 
 })
 Window:Tag({
     Title = "v1.6.4",
     Color = Color3.fromHex("#30ff6a"),
-    Radius = 0, -- from 0 to 13
+    Radius = 5, 
 })

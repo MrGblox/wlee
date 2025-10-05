@@ -1,6 +1,6 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Window = WindUI:CreateWindow({
-    Title = "44 HUB | UNIVERSAl",
+    Title = "44 HUB",
     Icon = "earth",
     Author = "BY | 4izfr",
     Folder = "MySuperHub",
@@ -17,13 +17,11 @@ local Window = WindUI:CreateWindow({
     ScrollBarEnabled = true,
     
   User = {Enabled = true, Anonymous = false, Callback = function() local player = game.Players.LocalPlayer local username = player.Name if setclipboard then setclipboard(username) WindUI:Notify({Title = "Copied!", Content = "Username kamu telah disalin: " .. username, Duration = 3, Icon = "check"}) print("✅ Copied username:", username) else WindUI:Notify({Title = "Gagal", Content = "Executor kamu tidak mendukung setclipboard!", Duration = 3, Icon = "x"}) warn("❌ setclipboard tidak tersedia.") end end,}})
-Window:Space()
   Window:Tag({
     Title = "v1.6.4",
     Color = Color3.fromHex("#30ff6a"),
     Radius = 12, 
 })
-Window:Space()
 Window:Tag({
     Title = "v1.6.4",
     Color = Color3.fromHex("#30ff6a"),

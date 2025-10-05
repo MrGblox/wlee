@@ -13,8 +13,7 @@ local Window = WindUI:CreateWindow({
     Resizable = true,
     SideBarWidth = 200,
     BackgroundImageTransparency = 0.42,
-    HideSearchBar = true,
-    ScrollBarEnabled = false,
+    HideSearchBar = false,
+    ScrollBarEnabled = true,
     
     User = {Enabled = true,Anonymous = false,Callback = function()print("clicked")end,},})
-    

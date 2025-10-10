@@ -24,7 +24,6 @@ local HomeTab = Window:Tab({Title = "Home",Icon = "house",Locked = false,})
 local Paragraph = HomeTab:Paragraph({
     Title = "Paragraph with Image, Thumbnail, Buttons",
     Desc = "Test Paragraph",
-    Color = "Red",
     Image = "",
     ImageSize = 30,
     Thumbnail = "",

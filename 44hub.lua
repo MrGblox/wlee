@@ -23,8 +23,6 @@ local HomeTab = Window:Tab({Title = "Home",Icon = "house",Locked = false,})
 local Paragraph = HomeTab:Paragraph({
     Title = "Welxcome to 44hub | Universal !",
     Desc = "Enjoy the script we made! If you find any bugs here, you can report them directly to our Discord :D",
-    Image = "smile",
-    ImageSize = 25,
     Thumbnail = "https://tr.rbxcdn.com/180DAY-1ef078e0daa7568fa3a0088e9ee6b6b2/768/432/Image/Webp/noFilter",
     ThumbnailSize = 120,
     Locked = false,

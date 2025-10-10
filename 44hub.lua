@@ -22,21 +22,19 @@ local Window = WindUI:CreateWindow({
 -- home tab
 local HomeTab = Window:Tab({Title = "Home",Icon = "house",Locked = false,})
 local Paragraph = HomeTab:Paragraph({
-    Title = "Welcome to 44Hub | Universal",
-    Desc = "enjoy the script with the best features!",
-    Color = "Dark",
-    Image = "smile",
+    Title = "Paragraph with Image, Thumbnail, Buttons",
+    Desc = "Test Paragraph",
+    Color = "Red",
+    Image = "",
     ImageSize = 30,
-    Thumbnail = "https://tr.rbxcdn.com/180DAY-1ef078e0daa7568fa3a0088e9ee6b6b2/768/432/Image/Webp/noFilter",
-    ThumbnailSize = 180,
+    Thumbnail = "",
+    ThumbnailSize = 80,
     Locked = false,
     Buttons = {
         {
-            Icon = "copy",
-            Title = "Join our discord now!",
+            Icon = "bird",
+            Title = "Button",
             Callback = function() print("1 Button") end,
         }
     }
 })
-local ChangelogSec = HomeTab:Section({ Title = "Changelog",TextXAlignment = "Left",})
-local changelogparagaf = ChangelogSec:Paragraph({Title = "Changelog v1.1",Desc = "[+] ADDED NEW TAB FOR GAME AND PLAYER",})

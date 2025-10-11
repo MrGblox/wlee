@@ -100,7 +100,7 @@ local function sendReport(reason)
     })
 end
 
-local reasonBox = HomeTab:Input({
+HomeTab:Input({
     Title = "Report Reason",
     Desc = "Write your report reason below",
     Placeholder = "Example: bug, exploit, issue, or feedback...",
